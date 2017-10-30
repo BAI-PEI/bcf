@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         mInput = (EditText) findViewById(R.id.et_text);
         mImg = (ImageView) findViewById(R.id.img);
         isLogo = (CheckBox) findViewById(R.id.is_logo);
-
+            //这是一次修改
     }
     public void make(View view) {
         String input = mInput.getText().toString().trim();
