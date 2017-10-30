@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         mImg = (ImageView) findViewById(R.id.img);
         isLogo = (CheckBox) findViewById(R.id.is_logo);
             //这是一次修改
+        //这是网页的修改
     }
     public void make(View view) {
         String input = mInput.getText().toString().trim();
